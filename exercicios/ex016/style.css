@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif; 
+    height: auto;
+}
+
+p{
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+    color: #66D2E3;
+    text-shadow:1px 1px 3px #47929ec2;
+}
+
+h2{
+    color: #90ADE0;
+}
+
+main{
+    background-color: white;
+    border-radius: 15px; /* Deixar a borda mais suave no quadrado*/
+    box-shadow:5px 5px 15px #53a9b6d5; /*Cria sombras*/
+    width: 650px; /*Tamanho do quadrado*/
+    padding: 10px; /*espaço entre as bordas do texto com o quadrado*/
+    margin: auto; /*Deixa a div no centro, independente do tamanho da página*/
+
+}
+
+body{
+background-image: linear-gradient(120deg, #9098D6, #93B6CC );
+}

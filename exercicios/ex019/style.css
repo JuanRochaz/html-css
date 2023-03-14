@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: #4F396B;
+}
+h1#titulo-principal{
+    text-align: center;
+    background-color: #4F396B;
+    color: #ffffff;
+}
+
+h2{
+    color: #996FD1;
+}
+
+.topico{
+    text-align: right;
+}
+
+p{
+    text-align: justify;
+}
+

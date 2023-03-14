@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Tags</title>
+    <style>
+        /* Color Theme Swatches in Hex */
+    .Blue-glitter-banner-1-hex { color: #025159; }
+    .Blue-glitter-banner-2-hex { color: #3E848C; }
+    .Blue-glitter-banner-3-hex { color: #7AB8BF; }
+    .Blue-glitter-banner-4-hex { color: #C4EEF2; }
+    .Blue-glitter-banner-5-hex { color: #A67458; }
+        
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:#025159;
+            margin: 0;
+        }
+        header{
+            background-color:#C4EEF2;
+            padding: 10px;
+            margin: 10px;
+        }
+        header > nav{
+            background-color: #92dde6;
+        }
+        header > h1 {
+            font-weight: bold;
+            color: #A67458;
+        }
+        #Menu > a{
+            text-decoration: none;
+            font-weight: bold;
+            color: #A67458;
+            margin-right: 70px;
+            box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.116); 
+        }
+        #Menu > a:hover{
+            text-decoration: underline;
+            color: #77533f;
+        }
+        main{
+            background-color: #C4EEF2;
+            height: 700px;
+            padding: 10px;
+            margin-top: 15px;
+            margin: 10px;
+        }
+        main > h2{
+            color: #A67458;
+            padding: 5px;
+        }
+        main > section{
+            background-color: #a8cccf;
+            height: 400px;
+            padding: 10px;
+            margin: 5px;
+        }
+        #Noticia > article{
+            background-color: #3E848C;
+            color: white;
+            height: 125px;
+            padding: 5px;
+            margin-top: 5px;
+        }
+        #citacao{
+            font-size: bold;
+            color: #025159;
+            background-color: #C4EEF2;
+            width: 300px;
+            padding: 10px;
+        }
+        main > aside{
+            background-color: #025159;
+            color: white;
+            width: 200px;
+            height: 70px;
+            text-align: center;
+            padding: 5px;
+            margin: 7px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Exemplo de Cabeçalho</h1>
+        <nav id="Menu">
+            <a href="#">Opção 1</a>
+            <a href="#">Opção 2</a>
+            <a href="#">Opção 3</a>
+            <a href="#">Opção 4</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Exemplo de Main (Conteudo Principal)</h2>
+        <section id="Noticia">
+            <p>Este é uma tag section, abaxio dois article</p>
+            <article>
+                <p>Exemplo de tag article</p>
+            </article>
+            <article>
+                <p>Exemplo de tag article</p>
+                <aside id="citacao">
+                    <p>Exemplo de tag aside dentro da article</p>
+                </aside>
+            </article>
+        </section>
+        <aside>
+            <p>Exemplo de tag aside</p>
+        </aside>
+    </main>
+    <footer>Desenvolvido por Juan Rocha</footer>
+</body>
+</html>
