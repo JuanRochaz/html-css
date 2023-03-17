@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-image: url(imagens/wallpaper001.jpg);
+        }
+        div.quadrado{
+            border: 2px solid black;
+            width: 300px;
+            height: 300px;
+            display: inline-block;
+            border-radius: 20px;
+            background-color: aquamarine;
+        }
+        div#q1{
+            background-color: blueviolet;
+        }
+        div#q1:hover{
+            background-color: rgb(43, 226, 211);
+        }
+        div#q2{
+            background-image: linear-gradient(to bottom, yellow, red);
+        }
+        div#q2:hover{
+            background-image: linear-gradient(to bottom, rgb(183, 0, 255), rgb(0, 255, 234));
+        }
+        div#q3{
+            background-image: url(imagens/pattern003.png);            
+        }
+        div#q3:hover{
+            background-image: url(imagens/pattern002.png);            
+        }
+    </style>
+    <title>Testes Fundo01</title>
+</head>
+<body>
+    <div class="quadrado" id="q1"></div>
+    <div class="quadrado" id="q2"></div>
+    <div class="quadrado" id="q3"></div>
+</body>
+</html>
